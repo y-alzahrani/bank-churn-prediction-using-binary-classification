@@ -1,9 +1,22 @@
-# Binary Classification for Bank Churn Prediction
+# Bank Churn Prediction Using Binary Classification Models
 
-In this project, Logistic Regression, K-Nearest Neighbours, and Support Vector Machines algorithms were implemented to predict which bank customers will churn based on their data. The dataset used contains data about 11 features for 10,000 customers. One of these features is the churn label which takes two possible values; 1 if the customer churned, and 0 otherwise. This is the target feature that we aim to predict.
+## Project Overview
 
-The aims of this project are to develop binary classification models that predict customer churn and to determine which customer features have the greatest effect on the likelihood of churn.
+This project focuses on predicting **bank customer churn** using three supervised machine learning algorithms:
 
-Please refer to the [report](report.pdf) for the analysis and discussion of the results.
+- **Logistic Regression**  
+- **K-Nearest Neighbors (KNN)**  
+- **Support Vector Machines (SVM)**  
 
-Note: Scikit-learn library was deliberately not used in executing the logistic regression and KNN algorithms.
+The dataset contains **simulated records** for **10,000 customers**, each described by **11 features** such as credit score, age, tenure, balance, and activity status. The target variable is `churn`, where:
+- `1` indicates the customer has churned
+- `0` indicates the customer has remained with the bank
+
+## Objectives
+
+- Develop and evaluate **binary classification models** to predict customer churn
+- Identify which features have the **strongest influence** on the likelihood of churn
+
+For detailed analysis, explanations, and insights, please refer to the [report](report.pdf).
+
+**Note:** The **Logistic Regression** and **KNN** algorithms were implemented manually **without using the scikit-learn library**, to strengthen understanding of how the algorithms work internally.
