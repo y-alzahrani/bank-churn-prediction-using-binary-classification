@@ -17,6 +17,6 @@ The dataset contains **simulated records** for **10,000 customers**, each descri
 - Develop and evaluate **binary classification models** to predict customer churn
 - Identify which features have the **strongest influence** on the likelihood of churn
 
-For detailed analysis, explanations, and insights, please refer to the [report](report.pdf).
+For analysis, explanations, and discussion of the results, please refer to the [report](report.pdf).
 
 **Note:** The **Logistic Regression** and **KNN** algorithms were implemented manually **without using the scikit-learn library**, to strengthen understanding of how the algorithms work internally.
