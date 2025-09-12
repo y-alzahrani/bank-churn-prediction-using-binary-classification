@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project focuses on predicting **bank customer churn** using three supervised machine learning algorithms:
+This project aims to predict **bank customer churn** using three supervised machine learning algorithms:
 
 - **Logistic Regression**  
 - **K-Nearest Neighbors (KNN)**  
 - **Support Vector Machines (SVM)**  
 
-The dataset contains **simulated records** for **10,000 customers**, each described by **11 features** such as credit score, age, tenure, balance, and activity status. The target variable is `churn`, where:
+The dataset contains **simulated records** for **10,000 customers**, each described by **11 variables** such as credit score, age, tenure, balance, and activity status. The target variable is `churn`, where:
 - `1` indicates the customer has churned
 - `0` indicates the customer has remained with the bank
 
@@ -19,4 +19,4 @@ The dataset contains **simulated records** for **10,000 customers**, each descri
 
 For analysis, explanations, and discussion of the results, please refer to the [report](report.pdf).
 
-**Note:** The **Logistic Regression** and **KNN** algorithms were implemented manually **without using the scikit-learn library**, to strengthen understanding of how the algorithms work internally.
+**Note:** The **Logistic Regression** and **KNN** algorithms were implemented manually from scratch **without using the scikit-learn library**, to strengthen understanding of how the algorithms work internally.
